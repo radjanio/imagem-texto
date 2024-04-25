@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.comeco{
+    height: 100%hv;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #1900ff;
+    transition: .0.1s;
+
+}
+button{
+    border: none;
+    background: #0707ff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .3s;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.sobre-nos {
+    display: flex;
+    padding-top: 50px;
+}
+
+.campo-imagem {
+    width: 520px;
+    object-fit: cover;
+    margin: 10px;
+  }
+
+  .campo-imagem img {
+    width: 500px;
+  }
+
+.campo-texto {
+    flex: 1;
+    margin: 10px;
+  }
+
+.imagem img {
+    width: 200px;
+}
+
+.campo-texto h1 {
+    font-size: 25px;
+  font-weight: bold;
+  }
+
+.campo-texto span {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
