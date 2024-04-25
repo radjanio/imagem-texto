@@ -53,6 +53,10 @@ button:hover{
     cursor: pointer;
 }
 
+.logo span {
+    color: #0707ff;
+}
+
 .sobre-nos {
     display: flex;
     padding-top: 50px;
